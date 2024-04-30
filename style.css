@@ -1,0 +1,44 @@
+*{
+    background-color: whitesmoke;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+    margin-top: 10%;
+}
+.activityType{
+    padding: 10px;
+    border-radius: 5px;
+}
+.card{
+    border:2px solid black;
+    margin: 10px;
+}
+
+.card-text{
+    font-weight: bold !important;
+    font-size:x-large !important;
+    color: rgb(9, 73, 73);
+}
+
+.website{
+    display: none;
+}
+
+P{
+   font-size: medium !important;
+    font-weight:normal!important;
+}
+
+@media only screen and (min-width: 0px) {
+    .container{
+        width: 90%;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .container{
+        width: 100%;
+    }
+}
